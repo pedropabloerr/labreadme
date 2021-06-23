@@ -61,6 +61,7 @@ We then train our model of Logistic Regression using a scale of 30-70%.
 It gives us a ROC AUC (*Area under the receiver operating characteristic curve*) of 0.7817460317460317.
 
 We visualise the result:
+
 ![ROC Visualization](/Users/pedropablo/Documents/DAB/labs/lab_read_me/labreadme/Images/ROC_visualization "ROC Visualization")
 
 Finally, and in order to asses its accuracy, we visualize the results in a confussion matrix:
