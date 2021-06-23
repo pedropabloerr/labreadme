@@ -31,7 +31,7 @@ To predict the outcome, we chose the following variables:
 
 We control the dataset by only focusing in those loans where the account holder is the owner of the account. 
 
-![variables](/Users/pedropablo/Documents/DAB/labs/lab_read_me/labreadme/Images/variables "Variables")
+![variables](https://github.com/pedropabloerr/labreadme/blob/main/Images/variables.png?raw=true)
 
 ## Process
 
@@ -46,7 +46,7 @@ The value counts are:
 
 When analysing multicollinearity, we find some interesting outcomes, like that the unempoleyment is is negatively correlated with the number of crimes; meaning, the lower the unemployment, the lesser the amount of crimes. But the data does not allowes to extract conclusions, anecdotes beside.
 
-![multicollinearity](/Users/pedropablo/Documents/DAB/labs/lab_read_me/labreadme/Images/multicollinearity "multicollinearity")
+![multicollinearity](https://github.com/pedropabloerr/labreadme/blob/main/Images/multicollinearity.png?raw=true)
 
 To clean the data, we drop the columns that are not useful to our analizes, the Loan ID, and the type of client, owner or disponents, since we have excluded the lasts.
 
@@ -62,11 +62,11 @@ It gives us a ROC AUC (*Area under the receiver operating characteristic curve*)
 
 We visualise the result:
 
-![ROC Visualization](/Users/pedropablo/Documents/DAB/labs/lab_read_me/labreadme/Images/ROC_visualization "ROC Visualization")
+![ROC Visualization](https://github.com/pedropabloerr/labreadme/blob/main/Images/ROC_visualization.png?raw=true)
 
 Finally, and in order to asses its accuracy, we visualize the results in a confussion matrix:
 
-![Confussion Matrix](/Users/pedropablo/Documents/DAB/labs/lab_read_me/labreadme/Images/confussion_matrix "Confussion Matrix")
+![Confussion Matrix](https://github.com/pedropabloerr/labreadme/blob/main/Images/Confussion_Matrix.png?raw=true)
 
 ## Results
 
