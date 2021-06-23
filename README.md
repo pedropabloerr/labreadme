@@ -70,3 +70,12 @@ Finally, and in order to asses its accuracy, we visualize the results in a confu
 ## Results
 
 Unfortunately, our model fails to predict any of the defaulted loans. 
+
+## Conclusions
+
+Our model succeeds on predicting those loans that will be paid, but fails to predict those that will default. This could happen because:
+
+- The data is highly unbalanced. 
+-  We did not select the right columns to make the analysis. 
+
+Further iterations will have to take those factos into account to strength the model. 
